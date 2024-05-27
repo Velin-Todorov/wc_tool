@@ -1,0 +1,20 @@
+{
+  "name": "wc_tool",
+  "version": "1.0.0",
+  "description": "impelementation of wc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "wc_tool": "./bin/index.js"
+  },
+  "type": "module",
+  "author": "velin",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "yargs": "^17.7.2"
+  }
+}
